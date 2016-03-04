@@ -23,7 +23,7 @@ public class RecursivePrograms {
 		System.out.println("\nFind The Continuous Sub Array In An Array Whose Sum Is Equal To Given Number 11 is :");
 		findTheContinuousSubArrayInAnArrayWhoseSumIsEqualToGivenNumber(new int[] {4,5,6,8,2,1,5,6},11);
 		System.out.println("\nFind Missing Number In a Contineous Array is: "+findMissingOrRepeatedNumber(new int[] {1,2,3,4,5,7,8},true));
-		System.out.println("\nFind Missing Number In a Contineous Array is: "+findMissingOrRepeatedNumber(new int[] {1,2,3,4,5,6,7,7,8},false));
+		System.out.println("\nFind Repeated Number In a Contineous Array is: "+findMissingOrRepeatedNumber(new int[] {1,2,3,4,5,6,7,7,8},false));
 		System.out.println("\nFind Largest Number Less Than Given Number And Without A Given DIgit: "+findLargestNumberLessThanGivenNumberAndWithoutAGivenDIgit(199,9));
 	}
 	

@@ -13,7 +13,7 @@ public class FindMaxDifferenceBWNumbers {
 		int diff = 0;
 		for (int i = 0; i < integers.size(); i++) {
 			for (int j = i+1; j < integers.size(); j++) {
-				if((integers.get(j) - integers.get(i)) > 0 && ((integers.get(j) - integers.get(i)) > diff || (integers.get(j) - integers.get(i)) == diff)){
+				if((integers.get(j) - integers.get(i)) > 0 && (integers.get(j) - integers.get(i)) >= diff){
 					diff = integers.get(j) - integers.get(i);
 					start = i;
 					end = j;

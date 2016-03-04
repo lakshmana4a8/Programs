@@ -2,7 +2,7 @@ package com.programs.strings;
 
 public class SortingString {
 	public static void main(String[] args) {
-		String original = "edcbaeda";
+		String original = "seeeeeeeeeedcbaeda";
 		int j = 0;
 		char temp = 0;
 		char[] chars = original.toCharArray();

@@ -17,6 +17,7 @@ public class TestHashMap {
 		
 		map.put("3", "33");
 		map.put("3", "44");
+		System.out.println(map);
 		
 		Iterator<Entry<String, String>> iterator = map.entrySet().iterator();
 		while (iterator.hasNext()) {

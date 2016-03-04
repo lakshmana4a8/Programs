@@ -17,8 +17,9 @@ public class StringReverse {
 			temparray[right] = character;
 		}
 		for (char chars : temparray) {
-			System.out.println(chars);
+			System.out.print(chars);
 		}
+		System.out.println();
 		System.out.println(reverseRecursively(val));
 	}
 

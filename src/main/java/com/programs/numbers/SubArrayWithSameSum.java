@@ -8,6 +8,7 @@ import java.util.Map;
 public class SubArrayWithSameSum {
 	public static void main(String[] args) {
 		List<Integer> integers = new ArrayList<Integer>();
+		@SuppressWarnings("unused")
 		Map<Integer, List<Integer>> map = new HashMap<Integer, List<Integer>>();
 		for (int i = 0; i <= 1000; i++) {
 			integers.add(i);

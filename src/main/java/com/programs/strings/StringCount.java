@@ -3,7 +3,7 @@ package com.programs.strings;
 public class StringCount {
 	public static void main(String[] args) {
 		String str = "abcdcabcdacbdadbca";
-		String findStr = "a";
+		String findStr = "ab";
 		int lastIndex = 0;
 		int count = 0;
 		while (lastIndex != -1) {

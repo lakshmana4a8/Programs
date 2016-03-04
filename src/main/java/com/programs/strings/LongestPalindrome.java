@@ -2,7 +2,7 @@ package com.programs.strings;
 
 public class LongestPalindrome {
 	public static void main(String[] args) {
-		System.out.println(longestPalindrome1("assddfkfddssgssddffddss"));
+		System.out.println("aaaaaa : "+longestPalindrome1("assddfkfddssgssddffddss"));
 	}
 	public static String longestPalindrome1(String s) {
 		 
@@ -28,13 +28,15 @@ public class LongestPalindrome {
 	}
 	 
 	public static boolean isPalindrome(String s) {
-	 
-		for (int i = 0; i < s.length() - 1; i++) {
-			if (s.charAt(i) != s.charAt(s.length() - 1 - i)) {
-				return false;
-			}
+		@SuppressWarnings("unused")
+		String str = reverseStrig(s);
+		return new StringBuilder(s).reverse().toString().equals(s);
+//		return s.equalsIgnoreCase(str);
+	}
+	private static String reverseStrig(String s) {
+		if(s.length() < 2){
+			return s;
 		}
-	 
-		return true;
+		return reverseStrig(s.substring(1))+s.charAt(0);
 	}
 }

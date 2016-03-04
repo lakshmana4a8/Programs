@@ -11,7 +11,7 @@ public class RemoveDuplicatesInArrayList {
 		list.add("Chaitanya");
 		list.add("Ajeet");
 		list.add("Ajeet");
-		
+//		Collections.sort(list);
 		for (int i = 0; i < list.size(); i++) {
 			for (int j = 0; j < list.size(); j++) {
 				if (list.get(i).compareTo(list.get(j)) < 0) {
@@ -27,10 +27,8 @@ public class RemoveDuplicatesInArrayList {
 		System.out.println(list);
 		
 		for (int j = 1; j < list.size(); j++) {
-			System.out.println("OUT : "+j);
 			if (list.get(j).compareTo(list.get(j - 1)) == 0) {
 				list.remove(j);
-				System.out.println("IN : "+j);
 				j = 0;
 			}
 		}
