@@ -3,6 +3,7 @@ package oracle;
 
 public class SubStrings {
 	public static void main(String[] args) {
+		//find longest valid substring from the given list of strings..
 		String[] strings = {"interviewer","baybest","keyboard"};
 		
 		for (String string : strings) {
@@ -24,7 +25,10 @@ public class SubStrings {
 	}
 
 	private static boolean isValid(String string) {
-		if(string.equalsIgnoreCase("interview") || string.equalsIgnoreCase("best") || string.equalsIgnoreCase("board")){
+		//consider you have dictionary to check valid string or not..
+		if(string.equalsIgnoreCase("in") || string.equalsIgnoreCase("inter") || string.equalsIgnoreCase("view") || string.equalsIgnoreCase("interview") || 
+				string.equalsIgnoreCase("bay") || string.equalsIgnoreCase("best") || 
+				string.equalsIgnoreCase("key") || string.equalsIgnoreCase("board")){
 			return true;
 		}
 		return false;
