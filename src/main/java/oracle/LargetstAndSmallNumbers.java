@@ -7,12 +7,12 @@ public class LargetstAndSmallNumbers {
 		System.out.println(Integer.MIN_VALUE);
 		int minInt = -2147483648;
 		System.out.println(minInt);
-//		minInt = -2147483649; // error
+//		minInt = -2147483649; // error The literal -2147483649 of type int is out of range
 		
 		System.out.println(Integer.MAX_VALUE);
 		int maxInt = 2147483647;
 		System.out.println(maxInt);
-//		maxInt = 2147483648; // error
+//		maxInt = 2147483648; // error The literal 2147483648 of type int is out of range
 		
 		System.out.println(Long.MIN_VALUE);
 		long minLong = -9223372036854775808L;

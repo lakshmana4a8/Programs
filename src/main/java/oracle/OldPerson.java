@@ -14,3 +14,4 @@ public class OldPerson {
 		person.privateMethod();// error: we can't access private methods outside of the class
 	}
 }
+ 

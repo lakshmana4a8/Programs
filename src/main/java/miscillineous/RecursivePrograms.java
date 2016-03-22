@@ -5,12 +5,13 @@ import java.util.Arrays;
 public class RecursivePrograms {
 	public static void main(String[] args) {
 		int val = power(2,3);
-		System.out.println("Recursion x^y : "+val);
+		System.out.println("Recursion 2^3 : "+val);
 		val = power(2,3,2);
-		System.out.println("Recursion x^y^z : "+val);
+		System.out.println("Recursion 2^3^2 : "+val);
 		System.out.println("\nfactorial of a number 5 :"+factorial(5));
-		System.out.println("\nfibonacci series upto number 100 :");
+		System.out.print("\nfibonacci series upto number 100 : ");
 		fibonacciSeries(0,1);
+		System.out.println();
 		System.out.println("\ncheck a number 15351 is palindrome or not :"+palindrome(15351));
 		System.out.println("\ncheck a number 153512 is palindrome or not :"+palindrome(153512));
 		System.out.println("\nReverse a string :"+stringReverse("lakshman"));
@@ -161,11 +162,11 @@ public class RecursivePrograms {
 
 	private static void fibonacciSeries(int i, int j) {
 		if(i == 0){
-			System.out.println(i+"\n"+j);
+			System.out.print(i+" "+j+" ");
 		}
 		int sum = i + j;
 		if(sum < 100){
-			System.out.println(sum);
+			System.out.print(sum+" ");
 			i = j;
 			j = sum;
 			fibonacciSeries(i, j);

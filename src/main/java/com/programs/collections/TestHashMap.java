@@ -16,7 +16,7 @@ public class TestHashMap {
 		System.out.println(map);
 		System.out.println(MapUtil.sortByValue(map));
 		System.out.println(MapUtil.sortByKey(map));
-		
+		System.out.println(map.values());
 		Iterator<Entry<String, Integer>> iterator = map.entrySet().iterator();
 		while (iterator.hasNext()) {
 			Map.Entry<String, Integer> entry = (Map.Entry<String, Integer>) iterator.next();
