@@ -22,5 +22,11 @@ public class TestHashMap {
 			Map.Entry<String, Integer> entry = (Map.Entry<String, Integer>) iterator.next();
 			System.out.println(entry.getKey()+" : "+entry.getValue());
 		}
+		Map<TestTreeMap,TestTreeMap> treeMap = new HashMap<TestTreeMap, TestTreeMap>();
+		treeMap.put(new TestTreeMap("name3", 23),new TestTreeMap("name3", 23));
+		treeMap.put(new TestTreeMap("name1", 21),new TestTreeMap("name1", 21));
+		treeMap.put(new TestTreeMap("name2", 22),new TestTreeMap("name2", 22));
+		treeMap.put(new TestTreeMap("name1", 21),new TestTreeMap("name1", 25));
+		System.out.println(treeMap);
 	}
 }
