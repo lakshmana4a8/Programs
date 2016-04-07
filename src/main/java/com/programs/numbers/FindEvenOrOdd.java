@@ -20,7 +20,7 @@ public class FindEvenOrOdd {
 			System.out.println(a+" is odd number");
 		}
 		if((b & 1) == 0){
-			System.out.println(b+" is odd number");
+			System.out.println(b+" is even number");
 		}else{
 			System.out.println(b+" is odd number");
 		}
@@ -30,7 +30,7 @@ public class FindEvenOrOdd {
 			System.out.println(a+" is odd number");
 		}
 		if(((b >> 1)<<1) == b){
-			System.out.println(b+" is odd number");
+			System.out.println(b+" is even number");
 		}else{
 			System.out.println(b+" is odd number");
 		}

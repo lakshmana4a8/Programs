@@ -1,6 +1,5 @@
 package com.programs.numbers;
 
-
 public class SudokuPuzzle {
 
 	public static void main(String[] args) {
@@ -14,7 +13,6 @@ public class SudokuPuzzle {
 				{ '.', '.', '.', '3', '.', '8', '9', '.', '2' },
 				{ '7', '.', '.', '.', '6', '.', '.', '4', '.' },
 				{ '.', '3', '.', '2', '.', '.', '1', '.', '.' } };
-			
 		s.solver(board);
 		for (int i = 0; i < 9; i++) {
 			for (int j = 0; j < 9; j++) {

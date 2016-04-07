@@ -30,6 +30,14 @@ public class Person {
 		this.privateAge = privateAge;
 	}
 	
+	public int getProtectedAge() {
+		return protectedAge;
+	}
+
+	public void setProtectedAge(int protectedAge) {
+		this.protectedAge = protectedAge;
+	}
+
 	String defaultMethod(){
 		return "defaultMethod";
 	}

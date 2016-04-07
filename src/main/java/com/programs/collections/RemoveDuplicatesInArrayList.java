@@ -1,10 +1,11 @@
 package com.programs.collections;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class RemoveDuplicatesInArrayList {
 	public static void main(String[] args) {
-		ArrayList<String> list = new ArrayList<String>();
+		List<String> list = new ArrayList<String>();
 		list.add("Ajeet");
 		list.add("jeetA");
 		list.add("Harry");

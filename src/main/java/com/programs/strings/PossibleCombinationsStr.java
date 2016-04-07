@@ -13,7 +13,7 @@ public class PossibleCombinationsStr {
 
 	private static Set<String> permutation(final String prefix, final String str, Set<String> strings) {
 	    int n = str.length();
-	    if (n == 0) {
+		if (n == 0) {
 	      strings.add(prefix);
 	    } else {
 	        for (int i = 0; i < n; i++){

@@ -14,9 +14,7 @@ public class MinCostPath {
 		tc[0][0] = cost[0][0];
 		for (i = 1; i < cost.length; i++) {
 			tc[i][0] = tc[i-1][0] + cost[i][0];
-		}
-		for (j = 1; j < cost.length; j++) {
-			tc[0][j] = tc[0][j-1] + cost[0][j];
+			tc[0][i] = tc[0][i-1] + cost[0][i];
 		}
 		for (i = 1; i < cost.length; i++) {
 			for (j = 1; j < cost.length; j++) {

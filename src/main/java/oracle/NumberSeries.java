@@ -4,12 +4,12 @@ public class NumberSeries {
 	public static void main(String[] args) {
 		int number = 1;
 		String num = String.valueOf(number);
+		System.out.println(num);
 		int count = 0;
 		while (count < 8) {
 			count++;
 			String temp = num;
 			num = "";
-			System.out.println(temp);
 			int numCount = 1;
 			for (int i = 0; i < temp.length(); i++) {
 				if((temp.length() - 1) == i){
@@ -34,6 +34,7 @@ public class NumberSeries {
 					}
 				}
 			}
+			System.out.println(temp);
 		}
 	}
 }
